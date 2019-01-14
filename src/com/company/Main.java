@@ -12,9 +12,7 @@ public class Main {
         int i;
         String NewStr = new String();
         for (i=0; i<StrParts.length; ++i){
-            if (!StrParts[i].equals(" ")){
-                NewStr = NewStr.concat(StrParts[i]);
-            }
+           NewStr = NewStr.concat(StrParts[i]);
         }
         System.out.println("Строка без пробелов: " + NewStr);
     }
